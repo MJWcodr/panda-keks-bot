@@ -81,6 +81,9 @@ bot.command('hrt', (ctx) => {
         if (response.indexOf(unsafeHRTWords) == -1){
             ctx.reply(response)    
         }
+        else {
+            ctx.reply("unsafe word")
+        }
     })
 
 })
